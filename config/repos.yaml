@@ -1,0 +1,19 @@
+# repos.yaml
+# Specify TERRAGRUNT_TFPATH environment variable to accomodate setting --default-tf-version
+repos:
+- id: "/.*/"
+  workflow: terragrunt
+workflows:
+  terragrunt:
+    plan:
+      steps:
+      - env:
+          name: TERRAGRUNT_TFPATH
+          command: 'echo "terraform${ATLANTIS_TERRAFORM_VERSION}"'
+      - run: terragrunt plan-all --terragrunt-non-interactive -no-color -out=$PLANFILE
+    apply:
+      steps:
+      - env:
+          name: TERRAGRUNT_TFPATH
+          command: 'echo "terraform${ATLANTIS_TERRAFORM_VERSION}"'
+      - run: terragrunt apply-all --terragrunt-non-interactive -no-color $PLANFILE
