@@ -12,4 +12,5 @@ workflows:
       - run: terragrunt plan-all --terragrunt-non-interactive --terragrunt-parallelism 1 -no-color -out=$PLANFILE
     apply:
       steps:
+      - run: terragrunt init --terragrunt-non-interactive --terragrunt-parallelism 1 -no-color 
       - run: terragrunt apply-all --terragrunt-non-interactive --terragrunt-parallelism 1 -no-color $PLANFILE
