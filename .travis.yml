@@ -14,7 +14,7 @@ after_script:
 
 before_deploy:
   - docker login -u "$REGISTRY_USER" -p "$REGISTRY_PASS"
-  - export TAG=`if [ $TRAVIS_PULL_REQUEST == "false" ] && [ $TRAVIS_BRANCH == "master" ] ; then echo "latest"; else echo ${version}; fi`
+  - export TAG=`if [ $TRAVIS_PULL_REQUEST == "false" ] && [ $TRAVIS_BRANCH == "main" ] ; then echo "latest"; else echo ${version}; fi`
   - docker tag "$IMAGE_NAME" "${IMAGE_NAME}:${TAG}"
 deploy:
   provider: script
