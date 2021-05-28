@@ -1,6 +1,6 @@
 FROM runatlantis/atlantis:latest
 
-ARG terragrunt_version=v0.29.5
+ARG terragrunt_version=v0.29.7
 
 # Terragrunt related configuration
 COPY config/repos.yaml /usr/local/etc/repos.yaml
