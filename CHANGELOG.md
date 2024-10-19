@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## v0.2.1 - 2024-10-19
+#### Bug Fixes
+- Add in shortsha step. - (ff79d12) - Rob Lazzurs
+
+- - -
+
 ## v0.2.0 - 2024-10-19
 #### Bug Fixes
 - **(dependabot)** bump docker/build-push-action from 2 to 6 (#5) - (5018db5) - dependabot[bot]
