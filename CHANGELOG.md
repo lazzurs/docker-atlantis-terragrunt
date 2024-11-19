@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## v0.2.2 - 2024-11-19
+#### Bug Fixes
+- **(dependabot)** bump actions/checkout from 2 to 4 - (2192fcb) - dependabot[bot]
+
+- - -
+
 ## v0.2.1 - 2024-10-19
 #### Bug Fixes
 - Add in shortsha step. - (ff79d12) - Rob Lazzurs
