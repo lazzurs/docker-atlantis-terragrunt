@@ -1,6 +1,6 @@
 FROM ghcr.io/runatlantis/atlantis:v0.30.0
 
-ARG terragrunt_version=v0.68.4
+ARG terragrunt_version=v0.69.6
 ARG terragrunt_atlantis_config=1.19.0
 
 # Set bash settings
