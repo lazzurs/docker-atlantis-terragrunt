@@ -1,4 +1,4 @@
-FROM ghcr.io/runatlantis/atlantis:v0.31.0
+FROM ghcr.io/runatlantis/atlantis:v0.32.0
 
 ARG terragrunt_version=v0.69.13
 ARG terragrunt_atlantis_config=1.19.0
