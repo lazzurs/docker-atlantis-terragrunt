@@ -2,6 +2,14 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## v0.2.4 - 2026-11-23
+#### Bug Fixes
+- **(dependabot)** bump runatlantis/atlantis from v0.31.0 to v0.33.0 - (806d786) - dependabot[bot]
+#### Chores
+- Update Terragrunt - (f931ca3) - Rob Lazzurs
+
+- - -
+
 ## v0.2.3 - 2024-12-03
 #### Bug Fixes
 - **(dependabot)** bump runatlantis/atlantis from v0.30.0 to v0.31.0 - (c481c19) - dependabot[bot]
